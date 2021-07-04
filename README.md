@@ -10,6 +10,8 @@ Split audio based on silence and min/max chunk lengths
 
 ## Usage
 
+**Windows:** replace `python3` with `python`
+
 ```
 python3 split_audio.py --inp <input_audio> [--min <min_time> --max <max_time> --sil <min_silence> --osr <osrate>]
 ```
@@ -28,6 +30,8 @@ python3 split_audio.py -i <input_audio> [-m <min_time> -M <max_time> -s <min_sil
 
 
 ## Example
+
+**Windows:** replace `python3` with `python`
 
 ```
 python3 split_audio.py --inp example.wav --max 600.0 --min 60.0 --sil 1.0 --osr 22050
