@@ -4,7 +4,7 @@ Split audio based on silence and min/max chunk lengths
 
 ## Install dependencies
 
-1. FFmpeg: [https://windowsloop.com/install-ffmpeg-windows-10/](https://windowsloop.com/install-ffmpeg-windows-10/)
+1. [FFmpeg](https://ffmpeg.org) (instructions for [Mac](https://manual.audacityteam.org/man/installing_ffmpeg_for_mac.html), [Windows](https://windowsloop.com/install-ffmpeg-windows-10/))
 2. ```pip install -r requirements.txt```
 
 
